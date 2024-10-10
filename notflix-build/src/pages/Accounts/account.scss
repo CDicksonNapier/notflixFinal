@@ -1,0 +1,119 @@
+@import '../../style.scss';
+.accounts{
+    height: 80vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+   
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    
+    h1{
+        font-size: 1.75rem;
+        font-weight: 500;
+        font-family: 'Montserrat';
+    }
+    .liked__list{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        p{
+            font-size: 1rem;
+            font-family: 'Montserrat';
+        }
+    }
+    .btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        height: 40px;
+        .logout{
+            width: 200px;
+            background-color: $third-red;
+            border: none;
+            color: white;
+            font-family: 'Montserrat';
+            font-size: 1.3rem;
+            font-weight: 500;
+            border-radius: 4px;
+        }
+    }
+}
+
+@media(max-width:768px){
+    .accounts{
+                
+        h1{
+            font-size: 1.85rem;          
+        }
+        .btn{            
+            justify-content: flex-start;
+        }
+    }
+    
+}
+@media(max-width:1024px){
+    .accounts{
+                
+        h1{
+            font-size: 2rem;          
+        }
+        .liked__list{
+           p{
+            font-size:1.1rem;
+        } 
+        }
+        
+        .btn{            
+            justify-content: flex-start;
+        }
+    }
+    
+}
+@media(max-width:1440px){
+    .accounts{
+                
+        h1{
+            font-size: 2.25rem;          
+        }
+        .liked__list{
+           p{
+            font-size:1.2rem;
+        } 
+        }
+        
+        .btn{            
+            justify-content: flex-start;
+        }
+    }
+    
+}
+@media(max-width:1920px){
+    .accounts{
+                
+        h1{
+            font-size: 2.5rem;          
+        }
+        .liked__list{
+           p{
+            font-size:1.25rem;
+        } 
+        }
+        
+        .btn{            
+            justify-content: flex-start;
+            button{
+                transition: $transition;
+                &:hover{
+                    background-color: $secondary-red;
+                }
+            }
+        }
+    }
+    
+}

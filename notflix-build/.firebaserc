@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "staging": "notflix-22010",
+    "default": "notflix-22010"
+  },
+  "targets": {},
+  "etags": {}
+}

@@ -1,0 +1,55 @@
+$bg-color:#111;
+$font-color:#fff;
+
+$primary-red: #eb3942;
+$secondary-red: #c11119;
+$third-red: #f50723;
+
+$primary-blue: #0071eb;
+$secondary-blue: #448EF4;
+$third-blue: #54b9c5;
+
+$primary-green: #46d369;
+
+$neutral-gray-10: #e5e5e5;
+$neutral-gray-20: #dcdcdc;
+$neutral-gray-25: #d2d2d2;
+$neutral-gray-50:#bcbcbc;
+$neutral-gray-100:#b3b3b3;
+$neutral-gray-150:#979797;
+$neutral-gray-200:#808080;
+$neutral-gray-350: #545454;
+$neutral-gray-500: #3a3a3a;
+$neutral-gray-750: #262626;
+$neutral-gray-900: #141414;
+
+$transparent-white-15: rgba(255, 255, 255, 0.15);
+
+$transparent-white-20: rgba(255, 255, 255, 0.2);
+$transparent-white-30: rgba(255, 255, 255, 0.3);
+$transparent-white-50: rgba(255, 255, 255, 0.5);
+$transparent-white-70: rgba(255, 255, 255, 0.7);
+
+
+$transparent-black-30: rgba(0, 0, 0, 0.3);
+$transparent-black-60: rgba(0, 0, 0, 0.6);
+$transparent-black-90: rgba(0, 0, 0, 0.9);
+
+
+$header: 4rem;
+$sub-header: 2.75rem;
+$sub-sub-header: 2.25rem;
+$paragraph: 1.25rem;
+$small-paragraph: 1rem;
+
+$transition: 0.3s ease-in-out;
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../src/assets/fonts/circular-std-medium-500.ttf');
+}
+@font-face {
+    font-family: 'MontserratLight';
+    src: url('../src/assets/fonts/Montserrat-Light.ttf');
+}
+
